@@ -1,0 +1,13 @@
+redis:
+  image: redis:3.0.5
+  ports: 
+    - "6379"
+  environment: 
+    SERVICE_NAME: "gowap-redis-dev"
+    SERVICE_TAGS: "dev,redis"
+
+gowap:
+  image: quay.io/lmickh/gowap:latest
+  ports:
+    - "8080"
+  links:

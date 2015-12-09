@@ -1,0 +1,10 @@
+.git
+tmp/*
+*/temp*
+*/*/temp*
+temp?
+!LICENCSE.md
+*.md
+docker/data
+docker/cache
+docker/testing
