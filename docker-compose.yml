@@ -7,7 +7,7 @@ redis:
     SERVICE_TAGS: "dev,redis"
 
 gowap:
-  image: quay.io/lmickh/gowap:consul_kv
+  image: quay.io/lmickh/gowap:latest
   ports:
     - "8080"
   links:
